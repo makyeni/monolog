@@ -174,7 +174,7 @@ class StreamHandler extends AbstractProcessingHandler
 
     private function createDir(string $url): void
     {
-        // Do not try to create dir if it has already been tried.
+        // Do not try to create directory if it has already been tried.
         if ($this->dirCreated) {
             return;
         }
